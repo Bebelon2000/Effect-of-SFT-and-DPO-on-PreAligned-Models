@@ -23,7 +23,7 @@ export TORCH_HOME=$HF_CACHE
 export APPTAINER_BIND="$PROJECT_ROOT:$PROJECT_ROOT"
 
 # Token e Offline Mode
-export HF_TOKEN="secret-token"
+export HF_TOKEN=
 export HF_HUB_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
 export TRANSFORMERS_OFFLINE=1
