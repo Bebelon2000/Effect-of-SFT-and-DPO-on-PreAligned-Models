@@ -21,7 +21,7 @@ SRC_DIR="$PROJECT_ROOT/projects/projeto_final_LLM/src"
 export HF_HOME="/data/hf_cache"
 export HF_DATASETS_CACHE="/data/hf_cache"
 export HF_HUB_OFFLINE=1
-export HF_TOKEN="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" # Token por segurança
+export HF_TOKEN="secret-token" # Token por segurança
 
 echo "--- Merge Iniciado ---"
 cd $SRC_DIR

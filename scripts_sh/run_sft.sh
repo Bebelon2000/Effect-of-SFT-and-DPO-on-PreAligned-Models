@@ -20,7 +20,7 @@ HF_CACHE="$PROJECT_ROOT/common/hf_cache"
 SRC_DIR="$PROJECT_ROOT/projects/projeto_final_LLM/src"
 
 # Token
-export HF_TOKEN="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"
+export HF_TOKEN="secret_token"
 
 export HF_HUB_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
