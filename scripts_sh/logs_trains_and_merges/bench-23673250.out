@@ -1,0 +1,42 @@
+* ----------------------------------------------------------------
+* Running PROLOG for Llama_Bench on Tue Jan 13 14:35:22 WET 2026
+*    JOB_NAME                : Llama_Bench
+*    JOB_ID                  : 23673250
+*    JOB_PARTITION           : gpu
+*    JOB_USER                : finance1
+*    JOB_ACCOUNT             : cpca183702024
+*    JOB_QOS                 : gpu183702024
+*    JOB_GPUS                : 0
+*    NODE_LIST               : hpc065
+*    SLURM_NNODES            : 1
+*    SLURM_NPROCS            : 1
+*    SLURM_NTASKS            : 1
+*    SLURM_CPUS_ON_NODE      : 4
+*    SLURM_TASKS_PER_NODE    : 1
+*    SLURM_JOB_CPUS_PER_NODE : 4
+*    SLURM_GPUS_ON_NODE      : 1
+*    SLURM_MEM_PER_NODE      : 40960
+*    SUBMIT_HOST             : cirrus09.a.incd.pt
+*    WORK_DIR                : /users5/cpca183702024/finance1/bernardoleite/projects/projeto_final_LLM/scripts
+*    JOB_SCRIPT              : /users5/cpca183702024/finance1/bernardoleite/projects/projeto_final_LLM/scripts/run_benchmark.sh
+*
+*    GPU 0                   : Name                 NVIDIA A100 80GB PCIe
+*                            : SN                   1322222099918
+*                            : Driver               560.35.03
+*                            : Memory               81156 MBytes
+*                            : Multiprocessors      108
+*                            : Cores/Multiprocessor 64
+*                            : Cores                6912
+* ----------------------------------------------------------------
+--- Benchmark Iniciado em Tue Jan 13 14:35:23 WET 2026 ---
+
+>>> Avaliando: Base
+
+>>> Avaliando: SFT
+
+>>> Avaliando: Just_DPO
+
+>>> Avaliando: SFT_DPO
+
+Resultados salvos em ../output/benchmark_results_v3.json
+--- Benchmark Finalizado em Tue Jan 13 15:07:05 WET 2026 ---

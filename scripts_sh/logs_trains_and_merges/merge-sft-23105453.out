@@ -1,0 +1,41 @@
+* ----------------------------------------------------------------
+* Running PROLOG for Llama_Merge on Fri Dec  5 00:42:31 WET 2025
+*    JOB_NAME                : Llama_Merge
+*    JOB_ID                  : 23105453
+*    JOB_PARTITION           : gpu
+*    JOB_USER                : finance1
+*    JOB_ACCOUNT             : cpca183702024
+*    JOB_QOS                 : gpu183702024
+*    JOB_GPUS                : 1
+*    NODE_LIST               : hpc060
+*    SLURM_NNODES            : 1
+*    SLURM_NPROCS            : 1
+*    SLURM_NTASKS            : 1
+*    SLURM_CPUS_ON_NODE      : 4
+*    SLURM_TASKS_PER_NODE    : 1
+*    SLURM_JOB_CPUS_PER_NODE : 4
+*    SLURM_GPUS_ON_NODE      : 1
+*    SLURM_MEM_PER_NODE      : 65536
+*    SUBMIT_HOST             : cirrus08.a.incd.pt
+*    WORK_DIR                : /users5/cpca183702024/finance1/bernardoleite/projects/projeto_final_LLM/scripts
+*    JOB_SCRIPT              : /users5/cpca183702024/finance1/bernardoleite/projects/projeto_final_LLM/scripts/run_merge.sh
+*
+*    GPU 0                   : Name                 Tesla V100S-PCIE-32GB
+*                            : SN                   1421220029940
+*                            : Driver               560.35.03
+*                            : Memory               32494 MBytes
+*                            : Multiprocessors      80
+*                            : Cores/Multiprocessor 64
+*                            : Cores                5120
+* ----------------------------------------------------------------
+--- Merge Iniciado ---
+--- Iniciando Merge ---
+Base: /users5/cpca183702024/finance1/bernardoleite/common/hf_cache/models--meta-llama--Meta-Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659
+Adapter: ../output/final_model_sft
+Carregando Modelo Base...
+Carregando Tokenizer...
+Carregando LoRA Adapters...
+Fundindo pesos (Merge & Unload)...
+Salvando modelo fundido em: ../output/Llama-8B-SFT-Merged
+--- Sucesso! Modelo pronto para DPO. ---
+--- Merge Finalizado ---

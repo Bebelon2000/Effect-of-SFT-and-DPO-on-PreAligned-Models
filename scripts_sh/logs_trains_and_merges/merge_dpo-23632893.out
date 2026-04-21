@@ -1,0 +1,41 @@
+* ----------------------------------------------------------------
+* Running PROLOG for Merge_DPO on Sat Jan  3 18:30:04 WET 2026
+*    JOB_NAME                : Merge_DPO
+*    JOB_ID                  : 23632893
+*    JOB_PARTITION           : gpu
+*    JOB_USER                : finance1
+*    JOB_ACCOUNT             : cpca183702024
+*    JOB_QOS                 : gpu183702024
+*    JOB_GPUS                : 0
+*    NODE_LIST               : hpc064
+*    SLURM_NNODES            : 1
+*    SLURM_NPROCS            : 1
+*    SLURM_NTASKS            : 1
+*    SLURM_CPUS_ON_NODE      : 8
+*    SLURM_TASKS_PER_NODE    : 1
+*    SLURM_JOB_CPUS_PER_NODE : 8
+*    SLURM_GPUS_ON_NODE      : 1
+*    SLURM_MEM_PER_NODE      : 81920
+*    SUBMIT_HOST             : cirrus08.a.incd.pt
+*    WORK_DIR                : /users5/cpca183702024/finance1/bernardoleite/projects/projeto_final_LLM/scripts
+*    JOB_SCRIPT              : /users5/cpca183702024/finance1/bernardoleite/projects/projeto_final_LLM/scripts/run_merge_dpo.sh
+*
+*    GPU 0                   : Name                 NVIDIA A100 80GB PCIe
+*                            : SN                   1322222099772
+*                            : Driver               560.35.03
+*                            : Memory               81156 MBytes
+*                            : Multiprocessors      108
+*                            : Cores/Multiprocessor 64
+*                            : Cores                6912
+* ----------------------------------------------------------------
+--- Job Merge DPO Iniciado em Sat Jan  3 18:30:04 WET 2026 ---
+--- Iniciando Merge ---
+Base: /users5/cpca183702024/finance1/bernardoleite/common/hf_cache/models--meta-llama--Meta-Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659
+Adapter: ../output/final_model_dpo_direct
+1. Carregando Modelo Base em FP16...
+2. Carregando Tokenizer...
+3. Acoplando Adaptadores LoRA...
+4. Fundindo pesos (Merge & Unload)...
+5. Salvando modelo completo em: ../output/Llama-3-Just-DPO-Final
+--- Sucesso! Modelo Final Pronto. ---
+--- Job Merge DPO Finalizado em Sat Jan  3 18:33:54 WET 2026 ---

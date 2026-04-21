@@ -1,0 +1,3 @@
+WARNING: While bind mounting '/users5/cpca183702024/finance1/bernardoleite:/users5/cpca183702024/finance1/bernardoleite': destination is already in the mount point list
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [01:11<03:33, 71.02s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:49<01:43, 51.83s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:42<00:52, 52.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:54<00:00, 36.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:54<00:00, 43.61s/it]
