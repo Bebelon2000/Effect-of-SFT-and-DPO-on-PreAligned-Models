@@ -2,9 +2,9 @@
 
 ## 📌 Abstract
 
-Standard alignment for Large Language Models (LLMs) typically involves Supervised Fine-Tuning (SFT) followed by Direct Preference Optimization (DPO). [cite_start]While effective for base models, the impact on models already undergoing instruction-tuning remains under-explored[cite: 5, 6]. 
+Standard alignment for Large Language Models (LLMs) typically involves Supervised Fine-Tuning (SFT) followed by Direct Preference Optimization (DPO). [cite_start]While effective for base models, the impact on models already undergoing instruction-tuning remains under-explored. 
 
-[cite_start]Our study identifies the **"Safety Regression"** phenomenon: applying naive SFT to a pre-aligned model (Llama-3.1-8B-Instruct), induces catastrophic forgetting of safety guardrails due to **over-compliance**[cite: 7, 10]. [cite_start]We demonstrate that the sequential pipeline (SFT+DPO) fails to recover safety, while a **"Just DPO"** approach directly on the base model optimizes utility while significantly increasing safety[cite: 11, 12].
+[cite_start]Our study identifies the **"Safety Regression"** phenomenon: applying naive SFT to a pre-aligned model (Llama-3.1-8B-Instruct), induces catastrophic forgetting of safety guardrails due to **over-compliance**. [cite_start]We demonstrate that the sequential pipeline (SFT+DPO) fails to recover safety, while a **"Just DPO"** approach directly on the base model optimizes utility while significantly increasing safety.
 
 ---
 
